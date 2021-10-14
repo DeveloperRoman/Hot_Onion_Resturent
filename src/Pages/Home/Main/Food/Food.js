@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Food = () => {
+const Food = (props) => {
+    const { id, name, price, description, image } = props.food;
     return (
         <div>
-              <h1>  i am testy food</h1>
+            <img src={image} alt="" />
+            <span>{name}</span>
+            <h4>{description}</h4>
+            <b>{price}</b>
         </div>
     );
 };
