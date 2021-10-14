@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Bagel and cream cheese",
       "price": 6.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "breakfast",
       "image": "https://i.ibb.co/s2jpXsc/breakfast4.png"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Breakfast sandwich",
       "price": 9.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "breakfast",
       "image": "https://i.ibb.co/wWJTZV4/breakfast5.png"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Baked chiken",
       "price": 10.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "breakfast",
       "image": "https://i.ibb.co/sqfF7px/breakfast6.png"
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "eggs benedict",
       "price": 8.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "breakfast",
       "image": "https://i.ibb.co/HqqyFYD/breakfast1.png"
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "toast croissant fried egg",
       "price": 19.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "breakfast",
       "image": "https://i.ibb.co/h9W7Dhy/breakfast2.png"
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "name": "full breakfast fried egg toast brunch",
       "price": 3.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "breakfast",
       "image": "https://i.ibb.co/mbFGgqM/breakfast3.png"
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "name": "healthy meal plan",
       "price": 23.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "lunch",
       "image": "https://i.ibb.co/qg0MyhS/lunch2.png"
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "fried chicken bento",
       "price": 9.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "lunch",
       "image": "https://i.ibb.co/3s5NJ3q/lunch3.png"
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "name": "tarragon rubbed salmon",
       "price": 6.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "lunch",
       "image": "https://i.ibb.co/M8MjQhp/lunch4.png"
     },
@@ -75,7 +75,7 @@
       "id": 10,
       "name": "indian bunch",
       "price": 8.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "lunch",
       "image": "https://i.ibb.co/4sWPszW/lunch5.png"
     },
@@ -83,7 +83,7 @@
       "id": 11,
       "name": "beef steak",
       "price": 15.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "lunch",
       "image": "https://i.ibb.co/qNypWSD/lunch6.png"
     },
@@ -91,7 +91,7 @@
       "id": 12,
       "name": "honey soy glazed salmon with peppers",
       "price": 7.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "lunch",
       "image": "https://i.ibb.co/3v8Wy4V/lunch1.png"
     },
@@ -99,7 +99,7 @@
       "id": 13,
       "name": "salmon with grapefruit and lentil salad",
       "price": 9.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "dinner",
       "image": "https://i.ibb.co/mR49nX9/dinner2.png"
     },
@@ -107,7 +107,7 @@
       "id": 14,
       "name": "lemony salmon piccata",
       "price": 10.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "dinner",
       "image": "https://i.ibb.co/BVwZJxH/dinner3.png"
     },
@@ -115,7 +115,7 @@
       "id": 15,
       "name": "pork tenderloin with quinoa pilaf",
       "price": 12.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "dinner",
       "image": "https://i.ibb.co/6nsTRPH/dinner4.png"
     },
@@ -123,7 +123,7 @@
       "id": 16,
       "name": "Bagel and cream cheese",
       "price": 6.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "dinner",
       "image": "https://i.ibb.co/KsnFdDZ/dinner5.png"
     },
@@ -131,7 +131,7 @@
       "id": 17,
       "name": "french fries with cheese",
       "price": 8.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "dinner",
       "image": "https://i.ibb.co/znM9SKF/dinner6.png"
     },
@@ -139,7 +139,7 @@
       "id": 18,
       "name": "garlic butter baked salmon",
       "price": 6.99,
-      "description": "how we dream about out future",
+      "description": "How we dream about out future",
       "category": "dinner",
       "image": "https://i.ibb.co/1QFb54d/dinner1.png"
     }

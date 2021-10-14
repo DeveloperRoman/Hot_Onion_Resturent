@@ -1,0 +1,34 @@
+.singleFood {
+    border: 1px solid #666;
+    margin: 20px;
+    padding: 20px;
+}
+
+.foodImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.foodImg img {
+    width: 100%;
+}
+
+.foodInfo {
+    text-align: center;
+}
+
+.foodInfo span {
+    font-size: 14px;
+    display: block;
+}
+
+.foodInfo h4 {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.foodInfo b {
+    font-size: 26px;
+}

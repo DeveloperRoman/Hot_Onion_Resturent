@@ -1,9 +1,19 @@
 import React from 'react';
+import useFood from '../../../../Hooks/useFood';
+import Food from '../Food/Food';
 
 const Dinner = () => {
+    const { foods } = useFood();
+
     return (
-        <div className="text-center">
-            <h1>i am from Dinner</h1>
+        <div className="">
+            {
+                foods.map(food => {
+                    if (food.category === 'dinner') {
+                        return <Food key={food.id} food={food}></Food>;
+                    }
+                })
+            }
         </div>
     );
 };
