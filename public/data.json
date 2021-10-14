@@ -1,74 +1,146 @@
 [
     {
       "id": 1,
-      "title": "Pianoforall - Incredible New Way To Learn Piano & Keyboard",
-      "fee": 23,
-      "instructor": "Robin Hall",
-      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg",
-      "description": "Learn Piano in WEEKS not years. Play-By-Ear & learn to Read Music. Pop, Blues, Jazz, Ballads, Improvisation, Classical"
+      "name": "Bagel and cream cheese",
+      "price": 6.99,
+      "description": "how we dream about out future",
+      "category": "breakfast",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 2,
-      "title": "Complete Guitar Lessons System - Beginner to Advanced",
-      "fee": 12,
-      "instructor": "Erich Andreas",
-      "image": "https://img-c.udemycdn.com/course/240x135/42271_886a_9.jpg",
-      "description": "All-in-one Guitar Course, Fingerstyle Guitar, Blues Guitar, Acoustic Guitar, Electric Guitar & Fingerpicking Guitarra"
+      "name": "Breakfast sandwich",
+      "price": 9.99,
+      "description": "how we dream about out future",
+      "category": "breakfast",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 3,
-      "title": "Complete Guitar Lessons System - Beginner to Advanced",
-      "fee": 19,
-      "instructor": "Michael Palmisano",
-      "image": "https://img-c.udemycdn.com/course/240x135/456284_80ce_9.jpg",
-      "description": "Learn The Tools Used By The World's Top Professional Guitar Players.it's a very nice course"
+      "name": "Baked chiken",
+      "price": 10.99,
+      "description": "how we dream about out future",
+      "category": "breakfast",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 4,
-      "title": "Learn to play HARMONICA, the easiest instrument to pick up!",
-      "fee": 13,
-      "instructor": "Ben Hewlett",
-      "image": "https://img-c.udemycdn.com/course/240x135/200598_16d5_11.jpg",
-      "description": "Ultimate diatonic harmonica lessons, blues, country music, rock; you will learn how to play on/off stage, solo/group"
+      "name": "eggs benedict",
+      "price": 8.99,
+      "description": "how we dream about out future",
+      "category": "breakfast",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 5,
-      "title": "The Professional Bass Masterclass - Bass 1",
-      "fee": 35,
-      "instructor": "Rajiv Narang",
-      "image": "https://img-c.udemycdn.com/course/240x135/917432_a517_3.jpg",
-      "description": "Piano lessons/ keyboard lessons for beginners. Play piano by ear, chords, reading music, improvisation, music theory"
+      "name": "toast croissant fried egg",
+      "price": 19.99,
+      "description": "how we dream about out future",
+      "category": "breakfast",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 6,
-      "title": "Learn To Play The Drums",
-      "fee": 11,
-      "instructor": "Billy Baker",
-      "image": "https://img-c.udemycdn.com/course/240x135/392958_b8d3.jpg",
-      "description": "Become a drummer with a step by step programme to get you from being drumming novice to drumming expert"
+      "name": "full breakfast fried egg toast brunch",
+      "price": 3.99,
+      "description": "how we dream about out future",
+      "category": "breakfast",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 7,
-      "title": "Beginner Violin Lessons - VIOLIN MASTERY FROM THE BEGINNING",
-      "fee": 14,
-      "instructor": "Patrick O'Malley",
-      "image": "https://img-c.udemycdn.com/course/240x135/1582278_57ca_5.jpg",
-      "description": "Learn Beginner Violin - Learn Violin from Scratch - The most In depth beginner online Violin course. Violin Class Violin"
+      "name": "healthy meal plan",
+      "price": 23.99,
+      "description": "how we dream about out future",
+      "category": "lunch",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 8,
-      "title": "Learn to Play Saxophone: Beginner to Pro in Under Four Hours",
-      "fee": 19,
-      "instructor": "Musicians Inspired",
-      "image": "https://img-c.udemycdn.com/course/240x135/174562_9df5_8.jpg",
-      "description": "Master the art of Saxophone! Cover a year's worth of private lessons in just a few hours, for a fraction of the cost."
+      "name": "fried chicken bento",
+      "price": 9.99,
+      "description": "how we dream about out future",
+      "category": "lunch",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     },
     {
       "id": 9,
-      "title": "Jazz Piano - Ultimate Beginners Course for Piano & Keyboard",
-      "fee": 14,
-      "instructor": "Arthur Bird",
-      "image": "https://img-c.udemycdn.com/course/240x135/2082504_53c7_3.jpg",
-      "description": "A simple step-by-step guide to jazz piano - Learn jazz piano chords, improvisation, famous jazz classics and much more!"
+      "name": "tarragon rubbed salmon",
+      "price": 6.99,
+      "description": "how we dream about out future",
+      "category": "lunch",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 10,
+      "name": "indian bunch",
+      "price": 8.99,
+      "description": "how we dream about out future",
+      "category": "lunch",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "beef steak",
+      "price": 15.99,
+      "description": "how we dream about out future",
+      "category": "lunch",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 12,
+      "name": "honey soy glazed salmon with peppers",
+      "price": 7.99,
+      "description": "how we dream about out future",
+      "category": "lunch",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 13,
+      "name": "salmon with grapefruit and lentil salad",
+      "price": 9.99,
+      "description": "how we dream about out future",
+      "category": "dinner",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 14,
+      "name": "lemony salmon piccata",
+      "price": 10.99,
+      "description": "how we dream about out future",
+      "category": "dinner",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 15,
+      "name": "pork tenderloin with quinoa pilaf",
+      "price": 12.99,
+      "description": "how we dream about out future",
+      "category": "dinner",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Bagel and cream cheese",
+      "price": 6.99,
+      "description": "how we dream about out future",
+      "category": "dinner",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 17,
+      "name": "french fries with cheese",
+      "price": 8.99,
+      "description": "how we dream about out future",
+      "category": "dinner",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
+    },
+    {
+      "id": 18,
+      "name": "garlic butter baked salmon",
+      "price": 6.99,
+      "description": "how we dream about out future",
+      "category": "dinner",
+      "image": "https://img-c.udemycdn.com/course/240x135/238934_4d81_5.jpg"
     }
   ]
