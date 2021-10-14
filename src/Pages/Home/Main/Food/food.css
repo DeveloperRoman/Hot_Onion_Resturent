@@ -1,7 +1,13 @@
 .singleFood {
-    border: 1px solid #666;
-    margin: 20px;
-    padding: 20px;
+    margin: 20px 10px;
+    padding: 16px;
+    border-radius: 5px;
+    transition: .6s;
+}
+
+.singleFood:hover{
+    box-shadow: 0px 0px 8px 0px #999;
+    cursor: pointer;
 }
 
 .foodImg {

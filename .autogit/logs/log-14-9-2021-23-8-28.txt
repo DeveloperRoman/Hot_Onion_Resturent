@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 14 2021 23:08:28 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/data.json
+* src/Pages/Home/Main/Breakfast/Breakfast.js
+* src/Pages/Home/Main/Dinner/Dinner.js
+* src/Pages/Home/Main/Food/Food.js
+* src/Pages/Home/Main/Lunch/Lunch.js
+* src/index.css
+
+
+Created files:
+* .autogit/logs/log-14-9-2021-22-38-10.txt
+* src/Pages/Home/Main/Food/food.css
+
+
+Deleted files:
+
+
+Renamed files:
