@@ -18,13 +18,13 @@ const Bennar = () => {
             <InputGroup className="mt-4 mb-5 w-50 mx-auto position-relative">
                 <FormControl
                     className="py-2 border-0 rounded-pill pe-5"
-                    placeholder="Recipient's username"
+                    placeholder="Search food items"
                     aria-label="Recipient's username"
                     aria-describedby="basic-addon2"
                 />
                 <Button
                     className="rounded-pill py-2 px-4 position-absolute top-0 end-0" variant="danger" id="button-addon2">
-                    Button
+                    Search
                 </Button>
             </InputGroup>
         </div>
