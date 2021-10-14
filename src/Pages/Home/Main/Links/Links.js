@@ -3,9 +3,12 @@ import { NavLink } from 'react-router-dom';
 
 const NavLinks = () => {
     return (
-        <div className="text-center d-flex justify-content-center mt-5">
+        <div className="text-center d-flex justify-content-center my-5">
             <NavLink
-                className="mx-2 text-decoration-none text-black fw-bold text-capitalize"
+                style={{
+                    color:'#333'
+                }}
+                className="mx-2 text-decoration-none fw-bold text-capitalize"
                 activeStyle={{
                     color: "red",
                     borderBottom: '1px solid red'
@@ -14,7 +17,10 @@ const NavLinks = () => {
                 breakfast
             </NavLink>
             <NavLink
-                className="mx-2 text-decoration-none text-black fw-bold text-capitalize"
+                style={{
+                    color:'#333'
+                }}
+                className="mx-2 text-decoration-none fw-bold text-capitalize"
                 activeStyle={{
                     color: "red",
                     borderBottom: '1px solid red'
@@ -23,7 +29,10 @@ const NavLinks = () => {
                 lunch
             </NavLink>
             <NavLink
-                className="mx-2 text-decoration-none text-black fw-bold text-capitalize"
+                style={{
+                    color:'#333'
+                }}
+                className="mx-2 text-decoration-none fw-bold text-capitalize"
                 activeStyle={{
                     color: 'red',
                     borderBottom: '1px solid red'
