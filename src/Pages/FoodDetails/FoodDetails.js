@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
@@ -152,6 +153,18 @@ const foods = [
 
 const FoodDetails = () => {
     const { foodId } = useParams();
+    const [quantity, setQuantity] = useState(1);
+
+    const plus = () => {
+        setQuantity(quantity + 1);
+    }
+
+    const minus = () => {
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
+        }
+    }
+    
     let displayFood = foods.find(food => food.id === parseInt(foodId));
     return (
         <div className="my-4">
@@ -160,8 +173,20 @@ const FoodDetails = () => {
                     <Col md={6}>
                         <h2 className="text-capitalize fs-4 mb-4">{displayFood.name}</h2>
                         <p className="text-muted pe-5">{displayFood.description}</p>
-                        <div>
-                            
+                        <div className="d-flex gap-5">
+                            <h4 className="fw-bold fs-1">${displayFood.price}</h4>
+                            <div className="border border-1 border-secondary w-25 p-2 rounded-pill d-flex  justify-content-around fs-3 pointer">
+                                <span
+                                    onClick={minus}
+                                    style={{ cursor: 'pointer' }}>-
+                                </span>
+                                <span>{quantity}</span>
+                                <span
+                                    onClick={plus}
+                                    style={{ cursor: 'pointer' }}
+                                    className="text-danger">+
+                                </span>
+                            </div>
                         </div>
                     </Col>
                     <Col md={6}>
