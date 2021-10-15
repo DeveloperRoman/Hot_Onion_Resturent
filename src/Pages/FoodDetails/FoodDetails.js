@@ -4,11 +4,11 @@ import useFood from '../../Hooks/useFood';
 
 const FoodDetails = () => {
     const { foodId } = useParams();
-    const {foods, isLoading} = useFood();
+    const { foods, isLoading} = useFood();
 
 
     console.log(isLoading)
-    if (isLoading) {
+    if (!isLoading) {
         console.log(foods);
     }
 

@@ -6,7 +6,7 @@ import Food from '../Food/Food';
 const Lunch = () => {
     const { foods } = useFood();
 
-    console.log(foods);
+    // console.log(foods);
     return (
         <Container>
             <Row>

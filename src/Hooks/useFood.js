@@ -11,7 +11,7 @@ const useFood = () => {
             .finally(setIsLoading(false))
     }, []);
     
-    console.log(foods);
+    // console.log(foods);
     
     return {isLoading, foods};
 }
