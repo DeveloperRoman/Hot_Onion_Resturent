@@ -157,7 +157,7 @@ const FoodDetails = () => {
     const history = useHistory();
     const { foodId } = useParams();
     const [quantity, setQuantity] = useState(1);
-    const [nextImg, setNextImg] = useState(1);
+    const [nextImg, setNextImg] = useState(0);
 
     const getNextImg = () => {
         if (nextImg < 16) {
@@ -184,11 +184,29 @@ const FoodDetails = () => {
     
     const displayFood = foods.find(food => food.id === parseInt(foodId));
     const nextFood = foods.find(food => {
-        if (parseInt(foodId) <= 17) {
+        if (parseInt(foodId) <= 16) {
             const newItem = parseInt(foodId) + nextImg
-        }food.id === 
+            if (newItem <= 18) {
+                return food.id === newItem
+            } else {
+                return food.id === 1
+            }
+        } else {
+            return food.id === 1
+        }
     });
-    const previousFood = foods.find(food => food.id === parseInt(foodId) + nextImg + 1);
+    const previousFood = foods.find(food => {
+        if (parseInt(foodId) <= 16) {
+            const newItem = parseInt(foodId) + nextImg + 1;
+            if (newItem <= 18) {
+                return food.id === newItem
+            } else {
+                return food.id === 2
+            }
+        } else {
+            return food.id === 2
+        }
+    });
     
     return (
         <div className="my-4">
