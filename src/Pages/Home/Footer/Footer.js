@@ -33,6 +33,22 @@ const Footer = () => {
                         </ul>
                     </Col>
                 </Row>
+                <Row className="mt-3">
+                    <Col sm={6}>
+                        <span className='text-muted'>Copyright@ 2020 Online food</span>
+                    </Col>
+                    <Col>
+                        <ul style={{
+                            display: 'flex',
+                            listStyle: 'none',
+                            color: '#ddd'
+                        }}>
+                            <li className="mx-2">Privacy Policy</li>
+                            <li className="mx-2">Terms of Use</li>
+                            <li className="mx-2">Pricing</li>
+                        </ul>
+                    </Col>
+                </Row>
             </Container>
         </div>
     );
