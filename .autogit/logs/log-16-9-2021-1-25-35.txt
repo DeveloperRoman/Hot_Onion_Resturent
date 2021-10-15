@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sat Oct 16 2021 01:25:35 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/Pages/FoodDetails/FoodDetails.js
+
+
+Created files:
+* .autogit/logs/log-16-9-2021-0-55-17.txt
+
+
+Deleted files:
+
+
+Renamed files:

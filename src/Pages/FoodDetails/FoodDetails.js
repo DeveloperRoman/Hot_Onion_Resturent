@@ -2,7 +2,7 @@ import { faGreaterThan, faShoppingCart } from '@fortawesome/free-solid-svg-icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { useParams } from 'react-router';
+import { useHistory, useParams } from 'react-router';
 
 
 const foods = [
@@ -154,8 +154,18 @@ const foods = [
 
 
 const FoodDetails = () => {
+    const history = useHistory();
     const { foodId } = useParams();
     const [quantity, setQuantity] = useState(1);
+    const [nextImg, setNextImg] = useState(1);
+
+    const getNextImg = () => {
+        if (nextImg < 16) {
+            setNextImg(nextImg + 1);
+        } else {
+            setNextImg(1)
+        }
+    }
 
     const plus = () => {
         setQuantity(quantity + 1);
@@ -166,10 +176,19 @@ const FoodDetails = () => {
             setQuantity(quantity - 1);
         }
     }
+
+    const seeFoodDetails = (id) => {
+        history.push(`/foodDetails/${id}`)
+        window.location.reload();
+    }
     
     const displayFood = foods.find(food => food.id === parseInt(foodId));
-    const nextFood = foods.find(food => food.id === parseInt(foodId)+1);
-    const previousFood = foods.find(food => food.id === parseInt(foodId)-1);
+    const nextFood = foods.find(food => {
+        if (parseInt(foodId) <= 17) {
+            const newItem = parseInt(foodId) + nextImg
+        }food.id === 
+    });
+    const previousFood = foods.find(food => food.id === parseInt(foodId) + nextImg + 1);
     
     return (
         <div className="my-4">
@@ -199,16 +218,19 @@ const FoodDetails = () => {
                         </button>
                         <div className="d-flex align-items-center gap-4">
                             <img
+                                onClick={() =>seeFoodDetails(previousFood.id)}
                                 style={{ cursor: 'pointer' }}
                                 className="w-25"
                                 src={previousFood.image}
                                 alt="" />
                             <img
+                                onClick={() =>seeFoodDetails(nextFood.id)}
                                 style={{ cursor: 'pointer' }}
                                 className="w-25"
                                 src={nextFood.image}
                                 alt="" />
                             <span
+                                onClick={getNextImg}
                                 style={{ cursor: 'pointer' }}
                                 className="fs-2 ms-2">
                                 <FontAwesomeIcon icon={faGreaterThan}></FontAwesomeIcon>
