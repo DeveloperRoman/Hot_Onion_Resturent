@@ -1,12 +1,19 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 import './food.css'
 
 const Food = (props) => {
     const { id, name, price, description, image } = props.food;
+    const history = useHistory();
+
+    const seeFoodDetails = (id) => {
+        history.push(`/foodDetails/${id}`)
+        window.location.reload();
+    }
     return (
         <Col sm={6} md={4}>
-            <div className="singleFood">
+            <div onClick={() =>seeFoodDetails(id)} className="singleFood">
                 <div className='foodImg'>
                     <img src={image} alt="" />
                 </div>

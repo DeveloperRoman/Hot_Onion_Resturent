@@ -10,7 +10,7 @@ const NavBar = () => {
         <div>
             <Navbar collapseOnSelect expand="md" bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="/home">
+                    <Navbar.Brand href="/">
                         <img
                             width="160"
                             src={logo}
