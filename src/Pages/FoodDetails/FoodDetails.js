@@ -4,24 +4,8 @@ import useFood from '../../Hooks/useFood';
 
 const FoodDetails = () => {
     const { foodId } = useParams();
-    const { foods, isLoading} = useFood();
-
-
-    console.log(isLoading)
-    if (!isLoading) {
-        console.log(foods);
-    }
-
-    // foods.forEach(food => {
-    //     console.log(food.id);
-    //     console.log(foodId);
-    //     if (food.id === foodId) {
-    //         console.log(food);
-    //         // displayFood = food;
-    //     }
-    // })
-    // foods.find(food => food.id === foodId)
-    // console.log(displayFood);
+    const { foods } = useFood();
+    console.log(foods)
     return (
         <div>
             ekta matro food dekhabe {foodId}
