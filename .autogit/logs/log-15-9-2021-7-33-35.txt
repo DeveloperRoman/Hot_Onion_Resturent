@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Fri Oct 15 2021 07:33:35 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/Pages/Home/Home.js
+* src/Pages/Home/Main/Food/Food.js
+* src/Pages/Home/Main/Main.js
+
+
+Created files:
+* .autogit/logs/log-15-9-2021-1-24-52.txt
+* src/Pages/Home/ChooseUs/ChooseUs.js
+* src/Pages/Home/ChooseUs/Services.js
+* src/images/services/cook.png
+* src/images/services/fast.png
+* src/images/services/home.png
+
+
+Deleted files:
+
+
+Renamed files:
