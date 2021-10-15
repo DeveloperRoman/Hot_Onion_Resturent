@@ -46,3 +46,5 @@ const clearTheCart = () => {
 return { addToDb, removeFromDb, clearTheCart, getStoredCart }
 
 }
+
+export default useDB;
