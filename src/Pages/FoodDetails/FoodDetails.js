@@ -1,3 +1,5 @@
+import { faGreaterThan, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
@@ -165,7 +167,10 @@ const FoodDetails = () => {
         }
     }
     
-    let displayFood = foods.find(food => food.id === parseInt(foodId));
+    const displayFood = foods.find(food => food.id === parseInt(foodId));
+    const nextFood = foods.find(food => food.id === parseInt(foodId)+1);
+    const previousFood = foods.find(food => food.id === parseInt(foodId)-1);
+    
     return (
         <div className="my-4">
             <Container>
@@ -187,6 +192,27 @@ const FoodDetails = () => {
                                     className="text-danger">+
                                 </span>
                             </div>
+                        </div>
+                        <button className="btn px-4 mt-3 mb-5 btn-danger rounded-pill text-white d-flex gap-2 align-items-center">
+                            <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+                            Add
+                        </button>
+                        <div className="d-flex align-items-center gap-4">
+                            <img
+                                style={{ cursor: 'pointer' }}
+                                className="w-25"
+                                src={previousFood.image}
+                                alt="" />
+                            <img
+                                style={{ cursor: 'pointer' }}
+                                className="w-25"
+                                src={nextFood.image}
+                                alt="" />
+                            <span
+                                style={{ cursor: 'pointer' }}
+                                className="fs-2 ms-2">
+                                <FontAwesomeIcon icon={faGreaterThan}></FontAwesomeIcon>
+                            </span>
                         </div>
                     </Col>
                     <Col md={6}>
