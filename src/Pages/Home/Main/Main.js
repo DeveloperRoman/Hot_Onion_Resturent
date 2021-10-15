@@ -12,13 +12,16 @@ const Main = () => {
             <Router>
                 <Links></Links>
                 <Switch>
-                    <Route path='/breakfast'>
+                    <Route exact path='/'>
                         <Breakfast></Breakfast>
                     </Route>
-                    <Route path='/lunch'>
+                    <Route exact path='/breakfast'>
+                        <Breakfast></Breakfast>
+                    </Route>
+                    <Route exact path='/lunch'>
                         <Lunch></Lunch>
                     </Route>
-                    <Route path='/dinner'>
+                    <Route exact path='/dinner'>
                         <Dinner></Dinner>
                     </Route>
                 </Switch>

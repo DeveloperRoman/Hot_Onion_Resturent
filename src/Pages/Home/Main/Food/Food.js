@@ -5,7 +5,7 @@ import './food.css'
 const Food = (props) => {
     const { id, name, price, description, image } = props.food;
     return (
-        <Col md={4}>
+        <Col sm={6} md={4}>
             <div className="singleFood">
                 <div className='foodImg'>
                     <img src={image} alt="" />
