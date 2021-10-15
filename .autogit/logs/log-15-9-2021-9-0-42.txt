@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Fri Oct 15 2021 09:00:42 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/Pages/Home/ChooseUs/ChooseUs.js
+* src/Pages/Home/ChooseUs/Services.js
+
+
+Created files:
+* .autogit/logs/log-15-9-2021-7-33-35.txt
+
+
+Deleted files:
+
+
+Renamed files:
